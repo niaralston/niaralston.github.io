@@ -76,7 +76,7 @@ const PublicationCard = ({
 
   const renderPublications = () => {
     return publications.map((item, index) => (
-      <a
+      
         className="card shadow-md card-sm bg-base-100 cursor-pointer"
         key={index}
         href={item.link}
@@ -140,12 +140,12 @@ const PublicationCard = ({
                   <h3 className="text-base sm:text-lg font-bold text-base-content truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
-                      : 'Publications'}
+                      : 'Publications (Conferences, Papers, & Podcasts)'}
                   </h3>
                   <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                      : `Showcasing ${publications.length} publications`}
+                      : `Showcasing ${publications.length} publications, papers, and podcasts`}
                   </div>
                 </div>
               </div>
