@@ -198,8 +198,8 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
-    disableSwitch: false,
+    defaultTheme: 'emerald',
+    disableSwitch: true,
     respectPrefersColorScheme: false,
     displayAvatarRing: true,
     themes: [
