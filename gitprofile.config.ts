@@ -131,7 +131,7 @@ const CONFIG = {
       position: 'Intern',
       from: 'May 2024',
       to: 'August 2024',
-      companyLink: 'https://www.astm.org/',
+      companyLink: 'https://www.etcoe.org/',
     },
     {
       company: 'Ingenuity Labs (Queen\'s University)',
@@ -142,7 +142,7 @@ const CONFIG = {
     },
     {
       company: 'MEDATech',
-      position: 'Consultant',
+      position: 'Student Consultant',
       from: 'September 2023',
       to: 'April 2024',
       companyLink: 'https://medatech.ca/',
@@ -152,7 +152,7 @@ const CONFIG = {
       position: 'Supervisor',
       from: 'August 2023',
       to: 'April 2024',
-      companyLink: 'https://www.queensu.ca/',
+      companyLink: 'https://www.queensu.ca/innovationcentre/facilities/sparq-studios-makerspace',
     },
     {
       company: 'AI Trillium',
