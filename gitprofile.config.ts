@@ -190,7 +190,7 @@ publications: [
     description:
       'This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob\'s Ladder illusion toy, designed to traverse challenging terrains where wheeled robots often struggle.',
     imageUrl: '/FlipbotSequence.png',
-    imageUrl2: 'FlipboatCAD.PNG',
+    imageUrl2: '/FlipboatCAD.PNG',
     imageUrl3: '/IROSAward.jpg',
     imageUrl4: '/Award.jpg',
   },
@@ -212,7 +212,7 @@ publications: [
     link: 'https://www.buzzsprout.com/1954112/episodes/15086207-learn-how-baymax-is-coming-to-real-life',
     description:
       'Brought on as guest for the ASTM Excellent Exo Chat podcast to discuss inflatable robotics research and the future of soft exoskeleton technology.',
-    imageUrl: 'Podcast.png',
+    imageUrl: '/Podcast.png',
   },
   {
     title: 'Exo Games',
