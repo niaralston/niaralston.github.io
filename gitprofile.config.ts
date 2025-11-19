@@ -43,7 +43,7 @@ const CONFIG = {
           description:
             'Led design and manufacturing of race car suspension and steering system, reducing weight by 3%. Employed Finite Element Analysis (FEA) and iterative testing to optimize design. Created technical drawings with proper tolerancing and manufactured parts using CNC equipment.',
           imageUrl:
-            '/FormulaCollage.png',
+            'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/FormulaCollage.png',
           link: 'https://github.com/niaralston',
         },
         {
@@ -51,7 +51,7 @@ const CONFIG = {
           description:
             'Developed control algorithms applying inverse kinematics and path planning, enabling robotic arms to play chess. Refined algorithm to accommodate various arm designs. Implemented circuitry for real-time visualization of chess piece positions.',
           imageUrl:
-            '/RobotPlayingChess.JPG',
+            'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/RobotPlayingChess.JPG',
           link: 'https://github.com/niaralston',
         },
       ],
