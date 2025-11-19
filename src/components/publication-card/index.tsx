@@ -125,8 +125,9 @@ const PublicationCard = ({
                     </div>
                   </div>
                 )}
+                {item.imageUrl2 && (
                 <div className="w-full opacity-90 mt-4">
-                  <div className="w-full h-48 rounded-lg overflow-hidden">
+                  <div className="w-full h-full rounded-lg overflow-hidden">
                     <LazyImage
                       src={item.imageUrl2}
                       alt={item.title}
@@ -141,7 +142,7 @@ const PublicationCard = ({
               )}
               {item.imageUrl3 && (
                 <div className="w-full opacity-90 mt-4">
-                  <div className="w-full h-48 rounded-lg overflow-hidden">
+                  <div className="w-full h-full rounded-lg overflow-hidden">
                     <LazyImage
                       src={item.imageUrl3}
                       alt={item.title}
@@ -156,7 +157,7 @@ const PublicationCard = ({
               )}
               {item.imageUrl4 && (
                 <div className="w-full opacity-90 mt-4">
-                  <div className="w-full h-48 rounded-lg overflow-hidden">
+                  <div className="w-full h-full rounded-lg overflow-hidden">
                     <LazyImage
                       src={item.imageUrl4}
                       alt={item.title}
