@@ -190,9 +190,9 @@ publications: [
     description:
       'This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob\'s Ladder illusion toy, designed to traverse challenging terrains where wheeled robots often struggle.',
     imageUrl: '/FlipbotSequence.png',
-    imageUrl2: '/FlipboatCAD.PNG',
-    imageUrl3: '/IROSAward.jpg',
-    imageUrl4: '/Award.jpg',
+    imageUrl2: '/IROSAward.jpg',
+    imageUrl3: '',
+    imageUrl4: '',
   },
   {
     title: 'Inflatable Bipedal Locomotion',
