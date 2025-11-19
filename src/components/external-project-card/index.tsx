@@ -69,7 +69,7 @@ const ExternalProjectCard = ({
 
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
-      <a
+      
         className="card shadow-md card-sm bg-base-100 cursor-pointer"
         key={index}
         href={item.link}
@@ -98,8 +98,8 @@ const ExternalProjectCard = ({
                     {item.title}
                   </h2>
                   {item.imageUrl && (
-                    <div className="avatar opacity-90">
-                      <div className="w-24 h-24 mask mask-squircle">
+                    <div className="w-full opacity-90">
+                      <div className="w-full h-48 mask mask-squircle">
                         <LazyImage
                           src={item.imageUrl}
                           alt={'thumbnail'}
