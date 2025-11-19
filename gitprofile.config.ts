@@ -208,6 +208,16 @@ publications: [
     description:
       'Brought on as guest for the ASTM Excellent Exo Chat podcast to discuss inflatable robotics research and the future of soft exoskeleton technology.',
   },
+  {
+    title: 'Exo Games',
+    conferenceName: 'ASTM International Exo Games',
+    journalName: '',
+    authors: '',
+    link: 'https://www.etcoe.org/exo-games',
+    description:
+      'Part of team of 6 that ran and organized the 2024 ASTM International Exo Games',
+  },
+
 ],
   
   // Display articles from your medium or dev account. (Optional)
