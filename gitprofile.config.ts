@@ -10,6 +10,10 @@ const CONFIG = {
   designation: 'Robotics Engineer | MASc Candidate',
   company: 'Queen\'s University',
   bio: 'Developing inflatable humanoid robots. Mechanical Engineering researcher specializing in bipedal locomotion.',
+
+    resume: {
+    fileUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/Resume%20-%20Nia%20Ralston.pdf',
+  },
   
   projects: {
     github: {
