@@ -5,12 +5,6 @@ const CONFIG = {
     username: 'niaralston', // Your GitHub username
   },
   base: '/',
-
-  name: 'Nia Ralston',
-  designation: 'Robotics Engineer | MASc Candidate',
-  company: 'Queen\'s University',
-  bio: 'Developing inflatable humanoid robots. Mechanical Engineering researcher specializing in bipedal locomotion.',
-  
   projects: {
     github: {
       display: true,
@@ -186,35 +180,36 @@ const CONFIG = {
       to: '2024',
     },
   ],
-  publications: [
-      {
-      title: 'FlipWalker: Jacob’s Ladder toy-inspired robot for locomotion acrossdiverse, complex terrain',
-      conferenceName: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)',
-      journalName: '',
-      authors: 'Diancheng Li, Nia Ralston, Bastiaan Hagen, Phoebe Tan1and Matthew A. Robertson',
-      link: 'https://www.researchgate.net/publication/395034427_FlipWalker_Jacob's_Ladder_toy-inspired_robot_for_locomotion_across_diverse_complex_terrain',
-      description:
-        'This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob’s Ladderillusion toy, designed to traverse challenging terrains wherewheeled robots often struggle. Like the Jacob’s Ladder toy, Flip-Walker features two interconnected segments joined by ﬂexiblecables, enabling it to pivot and ﬂip around singularities in amanner reminiscent of the toy’s cascading motion. Actuation isprovided by motor-driven legs within each segment that pushoff either the ground or the opposing segment, depending onthe robot’s current conﬁguration. A physics-based model of theunderactuated ﬂipping dynamics is formulated to elucidate thecritical design parameters governing forward motion and obsta-cle clearance or climbing. The untethered prototype weighs 0.78kg, achieves a maximum ﬂipping speed of 0.2 body lengths persecond. Experimental trials on artiﬁcial grass, river rocks, andsnow demonstrate that FlipWalker’s ﬂipping strategy, whichrelies on ground reaction forces applied normal to the surface,offers a promising alternative to traditional locomotion fornavigating irregular outdoor terrain.',
-    },
-    {
-      title: 'Inflatable Bipedal Locomotion',
-      conferenceName: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)',
-      journalName: '',
-      authors: 'Nia Ralston, Tong Li, Matthew A. Robertson',
-      link: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/NiaRalston_IROS_Poster.pdf',
-      description:
-        'Research investigating how inflatable legs and feet affect bipedal gait dynamics, exploring whether passive compliance can replace heavy stabilizing actuators while reducing energy consumption and design complexity. Developed three MuJoCo simulation models achieving stable walking gaits, with preliminary results showing 2.3x lower cost of transport compared to rigid flat-footed walkers. To be presented at IROS 2025.',
-    },
-      {
-      title: 'Learn how Baymax is coming to real life',
-      conferenceName: 'ASTM Excellent Exo Chat',
-      journalName: '',
-      authors: 'Nia Ralston, Nora Nimmerichter, Bill Billotte',
-      link: 'https://www.buzzsprout.com/1954112/episodes/15086207-learn-how-baymax-is-coming-to-real-life',
-      description:
-        'Brought on as guest for the ASTM Excellent Exo Chat',
-    },
-  ],
+publications: [
+  {
+    title: 'FlipWalker: Jacob\'s Ladder toy-inspired robot for locomotion across diverse, complex terrain',
+    conferenceName: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)',
+    journalName: '',
+    authors: 'Diancheng Li, Nia Ralston, Bastiaan Hagen, Phoebe Tan and Matthew A. Robertson',
+    link: 'https://www.researchgate.net/publication/395034427_FlipWalker_Jacob\'s_Ladder_toy-inspired_robot_for_locomotion_across_diverse_complex_terrain',
+    description:
+      'This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob\'s Ladder illusion toy, designed to traverse challenging terrains where wheeled robots often struggle. Like the Jacob\'s Ladder toy, FlipWalker features two interconnected segments joined by flexible cables, enabling it to pivot and flip around singularities in a manner reminiscent of the toy\'s cascading motion. Actuation is provided by motor-driven legs within each segment that push off either the ground or the opposing segment, depending on the robot\'s current configuration. A physics-based model of the underactuated flipping dynamics is formulated to elucidate the critical design parameters governing forward motion and obstacle clearance or climbing. The untethered prototype weighs 0.78 kg, achieves a maximum flipping speed of 0.2 body lengths per second. Experimental trials on artificial grass, river rocks, and snow demonstrate that FlipWalker\'s flipping strategy, which relies on ground reaction forces applied normal to the surface, offers a promising alternative to traditional locomotion for navigating irregular outdoor terrain.',
+  },
+  {
+    title: 'Inflatable Bipedal Locomotion',
+    conferenceName: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)',
+    journalName: '',
+    authors: 'Nia Ralston, Tong Li, Matthew A. Robertson',
+    link: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/NiaRalston_IROS_Poster.pdf',
+    description:
+      'Research investigating how inflatable legs and feet affect bipedal gait dynamics, exploring whether passive compliance can replace heavy stabilizing actuators while reducing energy consumption and design complexity. Developed three MuJoCo simulation models achieving stable walking gaits, with preliminary results showing 2.3x lower cost of transport compared to rigid flat-footed walkers. To be presented at IROS 2025.',
+  },
+  {
+    title: 'Learn how Baymax is coming to real life',
+    conferenceName: 'ASTM Excellent Exo Chat',
+    journalName: '',
+    authors: 'Nia Ralston, Nora Nimmerichter, Bill Billotte',
+    link: 'https://www.buzzsprout.com/1954112/episodes/15086207-learn-how-baymax-is-coming-to-real-life',
+    description:
+      'Brought on as guest for the ASTM Excellent Exo Chat podcast to discuss inflatable robotics research and the future of soft exoskeleton technology.',
+  },
+],
+  
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: '', // medium | dev
