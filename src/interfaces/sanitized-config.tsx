@@ -102,6 +102,8 @@ export interface SanitizedPublication {
   imageUrl2?: string;
   imageUrl3?: string;
   imageUrl4?: string;
+  videoUrl?: string;
+  videoUrl2?: string;
 }
 
 export interface SanitizedGoogleAnalytics {
