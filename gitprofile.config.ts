@@ -5,6 +5,12 @@ const CONFIG = {
     username: 'niaralston', // Your GitHub username
   },
   base: '/',
+
+  name: 'Nia Ralston',
+  designation: 'Robotics Engineer | MASc Candidate',
+  company: 'Queen\'s University',
+  bio: 'Developing inflatable humanoid robots. Mechanical Engineering researcher specializing in bipedal locomotion.',
+  
   projects: {
     github: {
       display: true,
