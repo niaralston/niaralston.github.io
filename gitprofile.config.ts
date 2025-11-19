@@ -189,6 +189,7 @@ publications: [
     link: 'https://www.researchgate.net/publication/395034427_FlipWalker_Jacob\'s_Ladder_toy-inspired_robot_for_locomotion_across_diverse_complex_terrain',
     description:
       'This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob\'s Ladder illusion toy, designed to traverse challenging terrains where wheeled robots often struggle. Like the Jacob\'s Ladder toy, FlipWalker features two interconnected segments joined by flexible cables, enabling it to pivot and flip around singularities in a manner reminiscent of the toy\'s cascading motion. Actuation is provided by motor-driven legs within each segment that push off either the ground or the opposing segment, depending on the robot\'s current configuration. A physics-based model of the underactuated flipping dynamics is formulated to elucidate the critical design parameters governing forward motion and obstacle clearance or climbing. The untethered prototype weighs 0.78 kg, achieves a maximum flipping speed of 0.2 body lengths per second. Experimental trials on artificial grass, river rocks, and snow demonstrate that FlipWalker\'s flipping strategy, which relies on ground reaction forces applied normal to the surface, offers a promising alternative to traditional locomotion for navigating irregular outdoor terrain.',
+    imageUrl: '/FlipbotPrototype.jpg',
   },
   {
     title: 'Inflatable Bipedal Locomotion',
@@ -198,6 +199,7 @@ publications: [
     link: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/NiaRalston_IROS_Poster.pdf',
     description:
       'Research investigating how inflatable legs and feet affect bipedal gait dynamics, exploring whether passive compliance can replace heavy stabilizing actuators while reducing energy consumption and design complexity. Developed three MuJoCo simulation models achieving stable walking gaits, with preliminary results showing 2.3x lower cost of transport compared to rigid flat-footed walkers. To be presented at IROS 2025.',
+    imageUrl: '',
   },
   {
     title: 'Learn how Baymax is coming to real life',
@@ -207,6 +209,7 @@ publications: [
     link: 'https://www.buzzsprout.com/1954112/episodes/15086207-learn-how-baymax-is-coming-to-real-life',
     description:
       'Brought on as guest for the ASTM Excellent Exo Chat podcast to discuss inflatable robotics research and the future of soft exoskeleton technology.',
+    imageUrl: '',
   },
   {
     title: 'Exo Games',
@@ -216,6 +219,7 @@ publications: [
     link: 'https://www.etcoe.org/exo-games',
     description:
       'Part of team of 6 that ran and organized the 2024 ASTM International Exo Games',
+    imageUrl: '',
   },
 
 ],
