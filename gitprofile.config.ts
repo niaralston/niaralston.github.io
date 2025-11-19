@@ -157,6 +157,13 @@ const CONFIG = {
       to: 'August 2022',
       companyLink: '',
     },
+    {
+      company: 'Mathnasium',
+      position: 'Math Instructor',
+      from: 'June 2019',
+      to: 'January 2023',
+      companyLink: '',
+    },
   ],
   certifications: [],
   educations: [
@@ -180,12 +187,21 @@ const CONFIG = {
     },
   ],
   publications: [
+      {
+      title: 'Inflatable Bipedal Locomotion',
+      conferenceName: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)',
+      journalName: '',
+      authors: 'Diancheng Li, Nia Ralston, Bastiaan Hagen, Phoebe Tan1and Matthew A. Robertson',
+      link: 'https://www.researchgate.net/publication/395034427_FlipWalker_Jacob's_Ladder_toy-inspired_robot_for_locomotion_across_diverse_complex_terrain',
+      description:
+        'This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob’s Ladderillusion toy, designed to traverse challenging terrains wherewheeled robots often struggle. Like the Jacob’s Ladder toy, Flip-Walker features two interconnected segments joined by ﬂexiblecables, enabling it to pivot and ﬂip around singularities in amanner reminiscent of the toy’s cascading motion. Actuation isprovided by motor-driven legs within each segment that pushoff either the ground or the opposing segment, depending onthe robot’s current conﬁguration. A physics-based model of theunderactuated ﬂipping dynamics is formulated to elucidate thecritical design parameters governing forward motion and obsta-cle clearance or climbing. The untethered prototype weighs 0.78kg, achieves a maximum ﬂipping speed of 0.2 body lengths persecond. Experimental trials on artiﬁcial grass, river rocks, andsnow demonstrate that FlipWalker’s ﬂipping strategy, whichrelies on ground reaction forces applied normal to the surface,offers a promising alternative to traditional locomotion fornavigating irregular outdoor terrain.',
+    },
     {
       title: 'Inflatable Bipedal Locomotion',
       conferenceName: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)',
       journalName: '',
       authors: 'Nia Ralston, Tong Li, Matthew A. Robertson',
-      link: '',
+      link: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/NiaRalston_IROS_Poster.pdf',
       description:
         'Research investigating how inflatable legs and feet affect bipedal gait dynamics, exploring whether passive compliance can replace heavy stabilizing actuators while reducing energy consumption and design complexity. Developed three MuJoCo simulation models achieving stable walking gaits, with preliminary results showing 2.3x lower cost of transport compared to rigid flat-footed walkers. To be presented at IROS 2025.',
     },
