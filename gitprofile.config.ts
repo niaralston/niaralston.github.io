@@ -189,7 +189,7 @@ publications: [
     link: 'https://www.researchgate.net/publication/395034427_FlipWalker_Jacob\'s_Ladder_toy-inspired_robot_for_locomotion_across_diverse_complex_terrain',
     description:
       'This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob\'s Ladder illusion toy, designed to traverse challenging terrains where wheeled robots often struggle.',
-    imageUrl: '/FlipbotSequence.png',
+    imageUrl: '/SequenceFlipbot.png',
     imageUrl2: '/IROSAward.jpg',
     imageUrl3: '',
     imageUrl4: '',
