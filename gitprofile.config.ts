@@ -188,7 +188,7 @@ const CONFIG = {
   ],
   publications: [
       {
-      title: 'Inflatable Bipedal Locomotion',
+      title: 'FlipWalker: Jacob’s Ladder toy-inspired robot for locomotion acrossdiverse, complex terrain',
       conferenceName: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)',
       journalName: '',
       authors: 'Diancheng Li, Nia Ralston, Bastiaan Hagen, Phoebe Tan1and Matthew A. Robertson',
@@ -204,6 +204,15 @@ const CONFIG = {
       link: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/NiaRalston_IROS_Poster.pdf',
       description:
         'Research investigating how inflatable legs and feet affect bipedal gait dynamics, exploring whether passive compliance can replace heavy stabilizing actuators while reducing energy consumption and design complexity. Developed three MuJoCo simulation models achieving stable walking gaits, with preliminary results showing 2.3x lower cost of transport compared to rigid flat-footed walkers. To be presented at IROS 2025.',
+    },
+      {
+      title: 'Learn how Baymax is coming to real life',
+      conferenceName: 'ASTM Excellent Exo Chat',
+      journalName: '',
+      authors: 'Nia Ralston, Nora Nimmerichter, Bill Billotte',
+      link: 'https://www.buzzsprout.com/1954112/episodes/15086207-learn-how-baymax-is-coming-to-real-life',
+      description:
+        'Brought on as guest for the ASTM Excellent Exo Chat',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
