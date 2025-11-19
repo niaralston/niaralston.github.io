@@ -77,7 +77,7 @@ const PublicationCard = ({
 
   const renderPublications = () => {
     return publications.map((item, index) => (
-      
+      <a
         className="card shadow-md card-sm bg-base-100 cursor-pointer"
         key={index}
         href={item.link}
@@ -111,20 +111,20 @@ const PublicationCard = ({
                     </p>
                   )}
                   {item.imageUrl && (
-                    <div className="w-full opacity-90 mt-4">
-                      <div className="w-full h-48 rounded-lg overflow-hidden">
-                        <LazyImage
-                          src={item.imageUrl}
-                          alt={item.title}
-                          placeholder={skeleton({
-                            widthCls: 'w-full',
-                            heightCls: 'h-full',
-                            shape: '',
-                          })}
-                        />
-                      </div>
+                  <div className="w-full opacity-90 mt-4">
+                    <div className="w-full h-48 rounded-lg overflow-hidden">
+                      <LazyImage
+                        src={item.imageUrl}
+                        alt={item.title}
+                        placeholder={skeleton({
+                          widthCls: 'w-full',
+                          heightCls: 'h-full',
+                          shape: '',
+                        })}
+                      />
                     </div>
-                  )}
+                  </div>
+                )}
                 </div>
               </div>
             </div>
