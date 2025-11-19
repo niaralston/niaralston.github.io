@@ -110,24 +110,24 @@ const PublicationCard = ({
                       {item.description}
                     </p>
                   )}
-                  {item.imageUrl && (
-                  <div className="w-full opacity-90 mt-4">
-                    <div className="w-full h-full rounded-lg overflow-hidden">
-                      <LazyImage
-                        src={item.imageUrl}
-                        alt={item.title}
-                        placeholder={skeleton({
-                          widthCls: 'w-full',
-                          heightCls: 'h-full',
-                          shape: '',
-                        })}
-                      />
-                    </div>
+              {item.imageUrl && (
+                <div className="w-full flex justify-center opacity-90 mt-4">
+                  <div className="rounded-lg overflow-hidden">
+                    <LazyImage
+                      src={item.imageUrl}
+                      alt={item.title}
+                      placeholder={skeleton({
+                        widthCls: 'w-full',
+                        heightCls: 'h-full',
+                        shape: '',
+                      })}
+                    />
                   </div>
-                )}
-                {item.imageUrl2 && (
-                <div className="w-full opacity-90 mt-4">
-                  <div className="w-full h-full rounded-lg overflow-hidden">
+                </div>
+              )}
+              {item.imageUrl2 && (
+                <div className="w-full flex justify-center opacity-90 mt-4">
+                  <div className="rounded-lg overflow-hidden">
                     <LazyImage
                       src={item.imageUrl2}
                       alt={item.title}
@@ -141,8 +141,8 @@ const PublicationCard = ({
                 </div>
               )}
               {item.imageUrl3 && (
-                <div className="w-full opacity-90 mt-4">
-                  <div className="w-full h-full rounded-lg overflow-hidden">
+                <div className="w-full flex justify-center opacity-90 mt-4">
+                  <div className="rounded-lg overflow-hidden">
                     <LazyImage
                       src={item.imageUrl3}
                       alt={item.title}
@@ -156,8 +156,8 @@ const PublicationCard = ({
                 </div>
               )}
               {item.imageUrl4 && (
-                <div className="w-full opacity-90 mt-4">
-                  <div className="w-full h-full rounded-lg overflow-hidden">
+                <div className="w-full flex justify-center opacity-90 mt-4">
+                  <div className="rounded-lg overflow-hidden">
                     <LazyImage
                       src={item.imageUrl4}
                       alt={item.title}
@@ -170,7 +170,6 @@ const PublicationCard = ({
                   </div>
                 </div>
               )}
-                </div>
               </div>
             </div>
           </div>
