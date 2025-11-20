@@ -23,6 +23,9 @@ export interface SanitizedExternalProject {
   title: string;
   description?: string;
   imageUrl?: string;
+  imageUrl2?: string;
+  imageUrl3?: string;
+  imageUrl4?: string;
   link: string;
 }
 
