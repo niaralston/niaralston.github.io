@@ -170,6 +170,32 @@ const PublicationCard = ({
                       </div>
                     </div>
                   )}
+                  {item.videoUrl && (
+                    <div className="w-full flex justify-center opacity-90 mt-4">
+                      <div className="rounded-lg overflow-hidden">
+                        <video 
+                          controls 
+                          className="w-full"
+                          src={item.videoUrl}
+                        >
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                    </div>
+                  )}
+                  {item.videoUrl2 && (
+                    <div className="w-full flex justify-center opacity-90 mt-4">
+                      <div className="rounded-lg overflow-hidden">
+                        <video 
+                          controls 
+                          className="w-full"
+                          src={item.videoUrl2}
+                        >
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
