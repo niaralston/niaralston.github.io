@@ -20,15 +20,15 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Featured Projects',
+      header: 'Projects',
       projects: [
         {
-          title: 'Inflatable Bipedal Locomotion Research',
+          title: 'Gearbox Design',
           description:
-            'Master\'s research developing inflatable pneumatic humanoid robots. Built bipedal walking simulations in MATLAB and MuJoCo, implementing MPC controllers with compliant walking models. Achieved 2.3x lower cost of transport compared to rigid flat-footed walkers. Research to be presented at IROS 2025.',
+            'As part of a competition to design a single gearbox for both speed and torque tests, I worked with a team to develop a sliding gearbox for an RC car. The sliding mechanism allowed us to switch between gear ratios optimized for hill climbing and maximum speed. We used MATLAB to determine optimal gear ratios and applied gear design equations to specify tooth counts, module sizing, and mesh geometry. The gearbox was manufactured and tested on course, where we evaluated performance metrics including maximum incline angle and top speed.',
           imageUrl:
-            'https://img.freepik.com/free-vector/robot-illustration_1284-42466.jpg',
-          link: 'https://github.com/niaralston',
+            'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/CarGoingUpHill.jpg',
+          link: '',
         },
         {
           title: 'Terrain-Adaptive Robot',
@@ -36,7 +36,7 @@ const CONFIG = {
             'NSERC-funded research developing a robot to address challenges faced by wheeled robots on soft terrains. Designed and implemented custom PCBs for sensor integration, improving real-time decision-making. Submitted paper to ICRA 2024.',
           imageUrl:
             'https://img.freepik.com/free-vector/robotic-arm-illustration_1284-42465.jpg',
-          link: 'https://github.com/niaralston',
+          link: '',
         },
         {
           title: 'Formula SAE Suspension System',
@@ -44,7 +44,7 @@ const CONFIG = {
             'Led design and manufacturing of race car suspension and steering system, reducing weight by 3%. Employed Finite Element Analysis (FEA) and iterative testing to optimize design. Created technical drawings with proper tolerancing and manufactured parts using CNC equipment.',
           imageUrl:
             'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/FormulaCollage.png',
-          link: 'https://github.com/niaralston',
+          link: '',
         },
         {
           title: 'Chess-Playing Robotic Arm',
@@ -52,7 +52,7 @@ const CONFIG = {
             'Developed control algorithms applying inverse kinematics and path planning, enabling robotic arms to play chess. Refined algorithm to accommodate various arm designs. Implemented circuitry for real-time visualization of chess piece positions.',
           imageUrl:
             'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/RobotPlayingChess.JPG',
-          link: 'https://github.com/niaralston',
+          link: '',
         },
       ],
     },
@@ -188,7 +188,7 @@ publications: [
     authors: 'Diancheng Li, Nia Ralston, Bastiaan Hagen, Phoebe Tan and Matthew A. Robertson',
     link: 'https://www.researchgate.net/publication/395034427_FlipWalker_Jacob\'s_Ladder_toy-inspired_robot_for_locomotion_across_diverse_complex_terrain',
     description:
-      'This work won the IROS Best Entertainment and Amusement Paper Award. This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob\'s Ladder illusion toy, designed to traverse challenging terrains where wheeled robots often struggle.',
+      'This work won the IROS Best Entertainment and Amusement Paper Award. This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob\'s Ladder illusion toy, designed to traverse challenging terrains where wheeled robots often struggle. I worked on the developement of the initial prototypes, both on the mechanical design and on the electical PCB design.',
     imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/SequenceFlipbot.png',
     imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/IROSAward.jpg',
     imageUrl3: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/PCBBoardDesign.PNG',
