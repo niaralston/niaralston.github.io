@@ -188,9 +188,10 @@ publications: [
     authors: 'Diancheng Li, Nia Ralston, Bastiaan Hagen, Phoebe Tan and Matthew A. Robertson',
     link: 'https://www.researchgate.net/publication/395034427_FlipWalker_Jacob\'s_Ladder_toy-inspired_robot_for_locomotion_across_diverse_complex_terrain',
     description:
-      'This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob\'s Ladder illusion toy, designed to traverse challenging terrains where wheeled robots often struggle.',
+      'This work won the IROS Best Entertainment and Amusement Paper Award. This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob\'s Ladder illusion toy, designed to traverse challenging terrains where wheeled robots often struggle.',
     imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/SequenceFlipbot.png',
     imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/IROSAward.jpg',
+    imageUrl3: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/IROSAwardCloseUp.JPEG',
   },
   {
     title: 'Inflatable Bipedal Locomotion',
