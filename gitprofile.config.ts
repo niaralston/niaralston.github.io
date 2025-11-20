@@ -189,8 +189,8 @@ publications: [
     link: 'https://www.researchgate.net/publication/395034427_FlipWalker_Jacob\'s_Ladder_toy-inspired_robot_for_locomotion_across_diverse_complex_terrain',
     description:
       'This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob\'s Ladder illusion toy, designed to traverse challenging terrains where wheeled robots often struggle.',
-    imageUrl: '/SequenceFlipbot.png',
-    imageUrl2: '/IROSAward.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/SequenceFlipbot.png',
+    imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/IROSAward.jpg',
   },
   {
     title: 'Inflatable Bipedal Locomotion',
@@ -200,8 +200,8 @@ publications: [
     link: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/NiaRalston_IROS_Poster.pdf',
     description:
       'Research investigating how inflatable legs and feet affect bipedal gait dynamics, exploring whether passive compliance can replace heavy stabilizing actuators while reducing energy consumption and design complexity. Developed three MuJoCo simulation models achieving stable walking gaits, with preliminary results showing 2.3x lower cost of transport compared to rigid flat-footed walkers. To be presented at IROS 2025.',
-    imageUrl: '/IROSPresentation.jpg',
-    imageUrl2: '/PosterPresentation.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/IROSPresentation.jpg',
+    imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/PosterPresentation.jpg',
     videoUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/SoftWalkerTrimmed.mp4',
   },
   {
@@ -212,7 +212,7 @@ publications: [
     link: 'https://www.buzzsprout.com/1954112/episodes/15086207-learn-how-baymax-is-coming-to-real-life',
     description:
       'Brought on as guest for the ASTM Excellent Exo Chat podcast to discuss inflatable robotics research and the future of soft exoskeleton technology.',
-    imageUrl: '/Podcast.png',
+    imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/Podcast.png',
   },
   {
     title: 'Exo Games',
