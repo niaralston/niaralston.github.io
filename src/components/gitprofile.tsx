@@ -255,6 +255,15 @@ const GitProfile = ({ config }: { config: Config }) => {
                       googleAnalyticId={sanitizedConfig.googleAnalytics.id}
                     />
                   )}
+                  {sanitizedConfig.projects.github.display && (
+                    <GithubProjectCard
+                      header={sanitizedConfig.projects.github.header}
+                      limit={sanitizedConfig.projects.github.automatic.limit}
+                      githubProjects={githubProjects}
+                      loading={loading}
+                      googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
+                    />
+                  )}
                   {sanitizedConfig.blog.display && (
                     <BlogCard
                       loading={loading}
