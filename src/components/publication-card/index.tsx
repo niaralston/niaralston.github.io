@@ -185,14 +185,17 @@ const PublicationCard = ({
                   )}
                   {item.videoUrl2 && (
                     <div className="w-full flex justify-center opacity-90 mt-4">
-                      <div className="rounded-lg overflow-hidden">
-                        <video 
-                          controls 
-                          className="w-full"
+                      <div className="rounded-lg overflow-hidden w-full" style={{ paddingBottom: '56.25%', position: 'relative', height: 0 }}>
+                        <iframe 
+                          className="w-full h-full"
+                          style={{ position: 'absolute', top: 0, left: 0 }}
                           src={item.videoUrl2}
-                        >
-                          Your browser does not support the video tag.
-                        </video>
+                          title="YouTube video player"
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerPolicy="strict-origin-when-cross-origin"
+                          allowFullScreen
+                        />
                       </div>
                     </div>
                   )}
