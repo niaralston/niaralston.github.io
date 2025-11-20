@@ -192,7 +192,7 @@ publications: [
     imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/SequenceFlipbot.png',
     imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/IROSAward.jpg',
     imageUrl3: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/PCBBoardDesign.PNG',
-    imageUrl4: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/PCBMilling.jpg',
+    imageUrl4: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/PCBMillingCloseUP.png',
   },
   {
     title: 'Inflatable Bipedal Locomotion',
