@@ -191,7 +191,8 @@ publications: [
       'This work won the IROS Best Entertainment and Amusement Paper Award. This paper introduces FlipWalker, a novel under-actuated robot locomotion system inspired by Jacob\'s Ladder illusion toy, designed to traverse challenging terrains where wheeled robots often struggle.',
     imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/SequenceFlipbot.png',
     imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/IROSAward.jpg',
-    imageUrl3: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/IROSAwardCloseUp.JPEG',
+    imageUrl3: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/PCBBoardDesign.PNG',
+    imageUrl4: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/PCBMilling.jpg',
   },
   {
     title: 'Inflatable Bipedal Locomotion',
@@ -212,7 +213,7 @@ publications: [
     authors: 'Nia Ralston, Nora Nimmerichter, Bill Billotte',
     link: 'https://www.buzzsprout.com/1954112/episodes/15086207-learn-how-baymax-is-coming-to-real-life',
     description:
-      'Brought on as guest for the ASTM Excellent Exo Chat podcast to discuss inflatable robotics research and the future of soft exoskeleton technology.',
+      'Interviewed on the ASTM Excellent Exo Chat podcast to discuss inflatable robotics research.',
     imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/Podcast.png',
   },
   {
