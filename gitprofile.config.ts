@@ -221,8 +221,9 @@ publications: [
     authors: '',
     link: 'https://www.etcoe.org/exo-games',
     description:
-      'Part of team of 6 that ran and organized the 2024 ASTM International Exo Games',
+      'Part of team of 6 that ran and organized the 2024 ASTM International Exo Games. These games were ran in partnership with the National Institute of Standards and Technology (NIST).',
     imageUrl: '',
+    videoUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/ExoGamesVideo.mp4',
   },
 
 ],
