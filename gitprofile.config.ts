@@ -32,9 +32,9 @@ const CONFIG = {
           link: '', 
         },
         {
-          title: 'Terrain-Adaptive Robot',
+          title: 'Scaffold Design',
           description:
-            'NSERC-funded research developing a robot to address challenges faced by wheeled robots on soft terrains. Designed and implemented custom PCBs for sensor integration, improving real-time decision-making. Submitted paper to ICRA 2024.',
+            'Designed a scaffold and validated its performance through both Finite Element Analysis (FEA) simulations and physical mechanical testing.',
           imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/FEA.png',
           imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/BeforAndAfterTesting.png',
           link: '',   
