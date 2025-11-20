@@ -206,7 +206,7 @@ publications: [
     imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/IROSPresentation.png',
     imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/IROSPosterPicture.png',
     videoUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/SoftWalkerTrimmed.mp4',
-    videoUrl2: 'https://www.youtube.com/embed/RoTWsi8_IXY',
+    videoUrl2: 'https://www.youtube.com/embed/RoTWsi8_IXY?si=wDu-UoAS187vcPTW',
   },
   {
     title: 'Learn how Baymax is coming to real life',
