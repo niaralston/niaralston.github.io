@@ -28,7 +28,6 @@ const CONFIG = {
             'As part of a competition to design a single gearbox for both speed and torque tests, I worked with a team to develop a sliding gearbox for an RC car. The sliding mechanism allowed us to switch between gear ratios optimized for hill climbing and maximum speed. We used MATLAB to determine optimal gear ratios and applied gear design equations to specify tooth counts, module sizing, and mesh geometry. The gearbox was manufactured and tested on course, where we evaluated performance metrics including maximum incline angle and top speed.',
           imageUrl:
             'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/GearBoxDrawing.png',
-          imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/GearBoxPrinted.jpg',
           imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/GearboxTeamWithCar.jpg',
           link: '', 
         },
@@ -36,8 +35,8 @@ const CONFIG = {
           title: 'Terrain-Adaptive Robot',
           description:
             'NSERC-funded research developing a robot to address challenges faced by wheeled robots on soft terrains. Designed and implemented custom PCBs for sensor integration, improving real-time decision-making. Submitted paper to ICRA 2024.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/robotic-arm-illustration_1284-42465.jpg',
+          imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/FEA.png',
+          imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/BeforAndAfterTesting.png',
           link: '',   
         },
         {
