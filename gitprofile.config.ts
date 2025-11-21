@@ -34,7 +34,7 @@ const CONFIG = {
         {
           title: 'Scaffold Design',
           description:
-            'Designed a scaffold and validated its performance through both Finite Element Analysis (FEA) simulations and physical mechanical testing.',
+            'Competed in a scaffold design challenge, creating a structure optimized to withstand the highest possible compressive forces. Validated performance through Finite Element Analysis (FEA) simulations and physical mechanical testing.',
           imageUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/FEA.png',
           imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/BeforAndAfterTesting.png',
           link: '',   
