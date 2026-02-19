@@ -20,8 +20,25 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Projects',
+      header: 'Interests & Projects',
       projects: [
+        {
+          title: 'Long Distance Running',
+          description:
+            'Over the last couple of years, I’ve really grown to love running. So far, I’ve completed four half marathons — including the Toronto Half Marathon and the Great Wall of China Half Marathon!',
+          imageUrl:
+            'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/RacePicture.jpg',
+          imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/GreatWallOfChina.jpg',
+          link: '', 
+        },
+        {
+          title: 'Travel/Hiking',
+          description:
+            'I love travelling, and one of my life goals is to live on every continent (so far I’ve done three!). Whenever I visit a new country, I try to fit in a hike — it’s my favorite way to actually get a feel for a place.',
+          imageUrl:
+            'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/Hiking.jpg',
+          link: '', 
+        },
         {
           title: 'Gearbox Design',
           description:
