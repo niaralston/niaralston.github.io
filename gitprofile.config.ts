@@ -37,6 +37,7 @@ const CONFIG = {
             'I love travelling, and one of my life goals is to live on every continent (so far I’ve done three!). Whenever I visit a new country, I try to fit in a hike — it’s my favorite way to actually get a feel for a place.',
           imageUrl:
             'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/Hiking.jpg',
+          imageUrl2: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/Hiking2.jpg',
           link: '', 
         },
         {
