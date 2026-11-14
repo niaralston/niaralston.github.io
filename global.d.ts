@@ -318,6 +318,11 @@ interface Config {
   github: Github;
 
   /**
+   * Local profile text displayed beneath the profile photo
+   */
+  profile?: Profile;
+
+  /**
    * Vite's base url
    */
   base?: string;
@@ -396,6 +401,10 @@ interface Config {
    * Enable PWA
    */
   enablePWA?: boolean;
+}
+
+interface Profile {
+  bio?: string;
 }
 
 declare const CONFIG: Config;

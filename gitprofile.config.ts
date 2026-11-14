@@ -4,6 +4,9 @@ const CONFIG = {
   github: {
     username: 'niaralston', // Your GitHub username
   },
+  profile: {
+    bio: 'PhD Student in Mechanical and Materials Engineering',
+  },
   base: '/',
   projects: {
     github: {
@@ -78,7 +81,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Nia Ralston',
-    description: 'Graduate Student developing inflatable pneumatic humanoid robots at Queen\'s University. Robotics researcher specializing in bipedal locomotion, mechanical design, and embedded systems.',
+    description: 'PhD student developing inflatable pneumatic humanoid robots at Queen\'s University. Robotics researcher specializing in bipedal locomotion, mechanical design, and embedded systems.',
     imageURL: '',
   },
   social: {
@@ -104,7 +107,7 @@ const CONFIG = {
     email: 'nia.ralston@gmail.com',
   },
   resume: {
-    fileUrl: 'https://raw.githubusercontent.com/niaralston/niaralston.github.io/main/public/Resume%20-%20Nia%20Ralston.pdf', // Add your resume PDF link here if you want a download button
+    fileUrl: '/Resume.pdf',
   },
   skills: [
     'MATLAB',
@@ -181,19 +184,25 @@ const CONFIG = {
   certifications: [],
   educations: [
     {
-      institution: 'Queen\'s University',
-      degree: 'Master of Applied Science, Mechanical and Materials Engineering',
-      from: '2024',
-      to: '2026',
+      institution: 'TU Delft, Netherlands',
+      degree: 'Visiting Researcher under Professor Della Santina',
+      from: 'Jan 2027',
+      to: 'Dec 2027',
     },
     {
-      institution: 'Zhejiang University (Research Exchange)',
+      institution: 'Zhejiang University, China',
       degree: 'Visiting Researcher under Professor Tong Li',
-      from: '2025',
-      to: '2025',
+      from: 'May 2025',
+      to: 'Nov 2025',
     },
     {
-      institution: 'Queen\'s University',
+      institution: 'Queen\'s University, Canada',
+      degree: 'PhD, Mechanical and Materials Engineering',
+      from: '2024',
+      to: '2028',
+    },
+    {
+      institution: 'Queen\'s University, Canada',
       degree: 'Bachelor of Applied Science, Mechanical Engineering',
       from: '2020',
       to: '2024',
